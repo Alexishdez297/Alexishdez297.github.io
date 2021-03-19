@@ -1,0 +1,196 @@
+header label img{
+				height: 30px;
+				width: 30px;
+}
+body{
+				margin: 0;
+				font: 15px/1.5 Arial, Helvetica,sans-serif;
+}
+
+header{
+				background: ;
+				border-bottom:1px solid #fff;
+}
+#menu{
+				display:none;
+}
+header label {
+				display:none;
+				width: 30px;
+				height: 30px;
+				padding: 10px;
+}
+header label:hover {
+				cursor: pointer;
+				background: rgba(0,0,0,.3);
+}
+
+.contenedor ul{
+				padding: 0;
+				margin: 0;
+				list-style:none;
+				display:flex;
+				}
+.contenedor ul li:hover{
+				background: rgba(0,0,0,.3);
+}
+.contenedor ul li a {
+				display:block;
+				padding: 15px 20px;
+				color: #fff;
+				text-decoration:none;
+} 
+
+@media (max-width: 780px){
+				header label{
+								display:inline-block;
+				}
+				.contenedor{
+								position:absolute;
+								background: ;
+								width: 70%;
+								margin-left: -70%;
+								transition:all 0.5s;
+				}
+				.contenedor ul{
+								flex-direction:column;
+								border:4px solid #fff;
+								border-left:none;
+								
+				}
+				.contenedor li{
+								
+				}
+				
+				#menu:checked ~ .contenedor{
+								margin-left: 0%;
+				}
+				nav{
+								display:block;
+				}
+				.tittle{
+				color: #fff;
+				font-size:250%;
+				padding: 20px;
+				display:inline;
+				top:0;
+				text-width: bold;
+				justify-content:center;
+}
+}
+@media (min-width:780px ){
+       header label{
+								display:inline-block;
+				}
+				nav{
+				display:block;
+				}
+				
+				.tittle{
+				color: #fff;
+				font-size:500%;
+				padding: 10px 200px;
+				display:inline-block;
+				top:0;
+				text-width: bold;
+				justify-content:center;
+				
+      }
+      header label{
+				display: inline-block;
+				padding: 20px 50px 50px 20px;								
+								
+				}
+				header label img{
+				height: 70px;
+				width: 70px;
+				
+      }
+				.contenedor{
+								position:absolute;
+								background: rgba(0,0,0,.3);
+								width: 70%;
+								margin-left: -70%;
+								transition:all 0.5s;
+				}
+					.contenedor ul{
+								flex-direction:column;
+								border:4px solid #fff;
+								border-left:none;
+								
+				}
+				.contenedor ul li a{
+								font-size:200%;
+				}
+      #menu:checked ~ .contenedor{
+								margin-left: 0%;
+				}
+}
+main{
+				background: url('disenoweb.jpg');
+				display: block;
+				top:0;
+				min-height: 2000px;
+				background-size: cover;
+				padding: 20px;
+				
+				margin-top:-240px;
+}
+main p{
+			 height: 200px;
+			 display:block;
+			 
+			 width: 100%;
+}
+.descripcion{
+				width: 90%;
+				margin: auto;
+				overflow:hidden;
+				padding: 10px;
+				margin: auto;
+				background: rgba(0,0,0,.1);
+}
+.descripcion ul{
+				display: flex;
+				padding: 0;
+				width: 305%;
+				animation: cambio 14s infinite; 
+}
+.descripcion ul li{
+				list-style:none;
+				 width: 100%;
+				 
+}
+
+.descripcion ul li a{
+				text-decoration:none;
+				color: #fff;
+				font-size:300%;
+				
+}
+.descripcion ul li p{
+				font-size:220%;
+				text-align:center;
+		font-family: 'Pacifico', cursive;
+		text-shadow: 5px 5px 1px #000;
+}
+.descripcion img {
+				text-align:center;
+				padding: 0 40% 0 40%;
+				max-width: 20%;
+				max-height: 20%;
+}
+@keyframes cambio {
+				
+				0%{margin-left: 0;}
+				30%{margin-left: 0;}
+				
+				50%{margin-left: -200%;}
+				80%{margin-left: -200%;}
+				
+				/*  50%{margin-left: 0;}
+				72%{margin-left: 0;}
+				
+				80%{margin-left: -100%;}
+				93%{margin-left: -100%;}  */
+}
