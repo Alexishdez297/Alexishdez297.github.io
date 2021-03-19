@@ -16,7 +16,6 @@ header label {
 				width: 30px;
 				height: 30px;
 				padding: 10px;
-				border-right:2px solid #fff;
 }
 header label:hover {
 				cursor: pointer;
@@ -53,11 +52,11 @@ header label:hover {
 				}
 				.contenedor ul{
 								flex-direction:column;
-								border-bottom:3px solid #848484;
+								border-bottom:4px solid orange;
 								
 				}
 				.contenedor li{
-								border-right:3px solid #848484;
+								border-right:4px solid orange;
 				}
 				
 				#menu:checked ~ .contenedor{
