@@ -1,3 +1,4 @@
+
 header label img{
 				height: 30px;
 				width: 30px;
@@ -45,6 +46,22 @@ header label:hover {
 				header label{
 								display:inline-block;
 				}
+				.descripcion ul li p{
+				font-size:150%;
+				text-align:center;
+		font-family: 'Pacifico', cursive;
+		text-shadow: 5px 5px 1px #000;
+       }
+       main{
+				background: url('disenoweb.jpg');
+				display: block;
+				top:0;
+				min-height: 1000px;
+				background-size: cover;
+				padding: 20px;
+				
+				margin-top:-240px;
+}
 				.contenedor{
 								position:absolute;
 								background: ;
@@ -85,6 +102,12 @@ header label:hover {
 				nav{
 				display:block;
 				}
+				.descripcion ul li p{
+				font-size:300%;
+				text-align:center;
+		font-family: 'Pacifico', cursive;
+		text-shadow: 5px 5px 1px #000;
+       }
 				
 				.tittle{
 				color: #fff;
@@ -108,7 +131,7 @@ header label:hover {
       }
 				.contenedor{
 								position:absolute;
-								background: rgba(0,0,0,.3);
+								background: rgba(0,0,0,.7);
 								width: 70%;
 								margin-left: -70%;
 								transition:all 0.5s;
@@ -120,13 +143,12 @@ header label:hover {
 								
 				}
 				.contenedor ul li a{
-								font-size:200%;
+								font-size:250%;
 				}
       #menu:checked ~ .contenedor{
 								margin-left: 0%;
 				}
-}
-main{
+				main{
 				background: url('disenoweb.jpg');
 				display: block;
 				top:0;
@@ -136,6 +158,8 @@ main{
 				
 				margin-top:-240px;
 }
+}
+
 main p{
 			 height: 200px;
 			 display:block;
@@ -148,13 +172,21 @@ main p{
 				overflow:hidden;
 				padding: 10px;
 				margin: auto;
-				background: rgba(0,0,0,.1);
+				background: rgba(0,0,0,.3);
+}
+.descripcion ul li div { 
+				text-align:center;
+}
+.vista{
+				padding: 0px;
+				text-align: center;
+				font-size: 120%;
 }
 .descripcion ul{
 				display: flex;
 				padding: 0;
-				width: 305%;
-				animation: cambio 14s infinite; 
+				width: 505%;
+				animation: cambio 17s infinite; 
 }
 .descripcion ul li{
 				list-style:none;
@@ -165,15 +197,10 @@ main p{
 .descripcion ul li a{
 				text-decoration:none;
 				color: #fff;
-				font-size:300%;
+				font-size:250%;
 				
 }
-.descripcion ul li p{
-				font-size:220%;
-				text-align:center;
-		font-family: 'Pacifico', cursive;
-		text-shadow: 5px 5px 1px #000;
-}
+
 .descripcion img {
 				text-align:center;
 				padding: 0 40% 0 40%;
@@ -183,14 +210,41 @@ main p{
 @keyframes cambio {
 				
 				0%{margin-left: 0;}
-				30%{margin-left: 0;}
+				20%{margin-left: 0;}
 				
-				50%{margin-left: -200%;}
-				80%{margin-left: -200%;}
+				25%{margin-left: -202%;}
+				45%{margin-left: -202%;}
 				
-				/*  50%{margin-left: 0;}
-				72%{margin-left: 0;}
+				50%{margin-left: -402%;}
+				70%{margin-left: -402%;}
 				
-				80%{margin-left: -100%;}
-				93%{margin-left: -100%;}  */
+				75%{margin-left: -202%;}
+				95%{margin-left: -202%;}  
+				
+			/*  	82%{margin-left: -400%;}
+				97%{margin-left: -400%;}   */
 }
+
+foother{
+      display:flex;
+      position:fixed;
+				height: 80px;
+				bottom:0;
+				color: #fff;
+				width: 100%;
+				justify-content:center;
+				background: #212121;
+			  box-size: border-box;
+}
+
+foother img{
+				width: 50px;
+				height: 50px;
+				padding: 18px;
+}
+foother p{
+				margin-bottom: 0px;
+				display:block;
+				font-size: 150%;
+}
+
