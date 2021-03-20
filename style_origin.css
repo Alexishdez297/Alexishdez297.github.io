@@ -100,9 +100,6 @@ header label:hover {
 }
 }
 @media (min-width:780px ){
-       header label{
-								display:inline-block;
-				}
 				nav{
 				display:block;
 				}
@@ -124,7 +121,7 @@ header label:hover {
 				
       }
       header label{
-				display: inline-block;
+				display: inline-block;      
 				padding: 20px 50px 50px 20px;								
 								
 				}
