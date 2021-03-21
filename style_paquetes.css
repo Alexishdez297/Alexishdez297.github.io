@@ -63,3 +63,8 @@ article{
 				background: rgba(0,0,0,.8);
 				border-radius: 15px;
 }
+h2:hover ~ .descrip{
+				box-shadow:0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff,0 0 70px #fff; 
+				background: rgba(0,0,0,.8);
+				border-radius: 15px;
+}
