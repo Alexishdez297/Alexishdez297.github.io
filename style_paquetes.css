@@ -2,7 +2,7 @@
 			margin: auto;
 			display:block;
 			box-sizing:border-box;
-			padding: 300px 10px 10px 10px;
+			padding: 250px 10px 10px 10px;
 			width: 100%;
 			
 }
@@ -59,6 +59,7 @@ article{
 				border:2px solid #fff;
 }
 .descrip:hover{
-				box-shadow:0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff; 
+				box-shadow:0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff,0 0 70px #fff; 
 				background: rgba(0,0,0,.8);
+				border-radius: 15px;
 }
