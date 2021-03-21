@@ -1,4 +1,6 @@
-
+main{
+				margin: 0;
+}
 
 header label img{
 				height: 30px;
@@ -113,7 +115,7 @@ header label:hover {
 				.tittle{
 				color: #fff;
 				font-size:500%;
-				padding: 10px 200px;
+				padding: 0px 0 0 100px  ;
 				display:inline-block;
 				top:0;
 				text-width: bold;
@@ -159,9 +161,7 @@ header label:hover {
 				
 				margin-top:-240px;
 }
-      main{
-      				background-attachment: fixed;
-      }
+      
 }
 
 main p{
