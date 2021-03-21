@@ -251,7 +251,7 @@ main p{
 }
 
 foother{
-      display:flex;
+      display:none;
       position:fixed;
 				height: 80px;
 				bottom:0;
@@ -332,3 +332,55 @@ foother p{
 span{
 				color: #ff001f;
 }
+.modal{
+				display:none;
+}
+.modal:target {
+				position:fixed ;
+				background: rgba(0,0,0,.8);
+				top:0;
+				left:0;
+				width: 100%;
+				height: 95%;
+}
+.modal h3{
+				color: #fff;
+				font-size:30px;
+				text-align:center;
+				margin: 15px 0;
+}
+.foto{
+				width: 100%;
+				height: 90%;
+			 display:flex;
+			 justify-content:center;
+			 align-items:center;
+			 padding: 10px;
+			 box-sizing:border-box;
+}
+.foto a{
+				color: #fff;
+				font-size: 70px;
+				text-decoration:none;
+}
+.foto a:nth-child(2){
+				height: 100%;
+				margin: 0 10px;
+				felx-shrink:2;
+}
+.foto img{
+      max-width: 100%;
+      width: 100%;
+      height: 100%;
+      box-sizing:border-box;
+}
+.cerrar{
+				display:block;
+				background: ;
+				padding-top: 35px;
+				width: 100%;
+				margin: auto;
+				text-align:center;
+				
+}
+
