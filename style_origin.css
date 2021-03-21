@@ -1,10 +1,27 @@
 main{
 				margin: 0;
+				
 }
 
 header label img{
 				height: 30px;
 				width: 30px;
+}
+.volverr{
+				width: 100%;
+				display:flex;
+				justify-content:center;
+}
+.volver{
+				text-decoration:none;
+				text-align:center;
+				color: #fff;
+				border-radius: 10px;
+				border:2px solid #fff;
+				display:inline-block;
+				padding: 10px;
+				font-size: 130%;
+				background: rgba(0,0,0,.3);
 }
 body{
 				margin: 0;
@@ -191,7 +208,7 @@ main p{
 				display: flex;
 				padding: 0;
 				width: 505%;
-				animation: cambio 17s infinite; 
+				animation: cambio 15s infinite; 
 }
 .descripcion ul li{
 				list-style:none;
