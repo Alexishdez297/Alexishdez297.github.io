@@ -1,0 +1,60 @@
+.caja{ 
+			margin: auto;
+			display:block;
+			box-sizing:border-box;
+			padding: 350px 10px 10px 10px;
+			width: 100%;
+			
+}
+article{
+				width: 100%;
+				display:block;
+				margin-top: 50px;
+}
+.descrip{
+				border:2px solid yellow;
+				display:block;
+				color: #fff;
+				background: rgba(0,0,0,.3);
+				text-align:center;
+				margin: 0;
+				padding: 0;
+}
+.paquete h2, .dominio h2{
+				color: #fff;
+				background: rgba(0,0,0,.9);
+				text-shadow:0 0 0.5px #000, 0 0 5px #fff;
+				font-size:350%;
+				font-family: 'Pacifico', cursive;
+				margin: auto;
+				padding: 5%;
+				width: 90%;
+				border:2px solid red;
+				text-align:center;
+}
+.descrip ul {
+				margin: 0;
+				padding: 0;
+}
+.descrip ul li{
+				border:1px solid #fff
+				list-style:none;
+				margin: 0;
+				padding: 20px;
+				display:block;
+				font-size:200%;
+				color: #fff;
+}
+.descrip ul a{
+				text-decoration:none;
+				font-size:150%;
+				background: rgba(0,0,0,1);
+				color: #fff;
+				border-radius: 10px;
+				padding: 10px;
+				border:2px solid #fff;
+}
+.descrip:hover{
+				box-shadow:0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff; 
+				background: rgba(0,0,0,.8);
+}
