@@ -12,12 +12,12 @@ article{
 				margin-top: 50px;
 }
 .descrip{
-				border:2px solid yellow;
+				border:2px solid yellow
 				display:block;
 				color: #fff;
 				background: rgba(0,0,0,.3);
 				text-align:center;
-				margin: 0;
+				
 				padding: 0;
 }
 .paquete h2, .dominio h2{

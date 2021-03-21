@@ -23,7 +23,9 @@ header label img{
 				display:inline-block;
 				padding: 20px;
 				font-size: 130%;
-				background: rgba(0,0,0,.6);
+				background: rgba(0,0,0,.8);
+				
+				margin-bottom: 50px;
 }
 body{
 				margin: 0;
@@ -45,7 +47,7 @@ header label {
 }
 header label:hover {
 				cursor: pointer;
-				background: rgba(0,0,0,.3);
+				background: rgba(0,0,0,.5);
 }
 .contenedor{
 				background: rgba(0,0,0,.7);
@@ -57,7 +59,7 @@ header label:hover {
 				display:flex;
 				}
 .contenedor ul li:hover{
-				background: rgba(0,0,0,.3);
+				background: rgba(0,0,0,.5);
 }
 .contenedor ul li a {
 				display:block;
