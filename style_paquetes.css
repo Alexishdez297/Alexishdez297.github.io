@@ -33,7 +33,7 @@ article{
 				margin: auto;
 				padding: 5%;
 				width: 90%;
-				border:2px solid red;
+				border-bottom:2px solid red;
 				text-align:center;
 }
 .descrip ul {
@@ -56,15 +56,10 @@ article{
 				color: #fff;
 				border-radius: 10px;
 				padding: 10px;
-				border:2px solid #fff;
+				border:3px solid #fff;
 }
-.descrip:hover{
-				box-shadow:0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff,0 0 70px #fff; 
+.paquete:hover{
+				box-shadow:0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 40px #fff; 
 				background: rgba(0,0,0,.8);
-				border-radius: 15px;
-}
-h2:hover ~ .descrip{
-				box-shadow:0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff,0 0 70px #fff; 
-				background: rgba(0,0,0,.8);
-				border-radius: 15px;
+				border-radius: 20px;
 }
