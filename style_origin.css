@@ -204,9 +204,11 @@ main p{
 				text-align:center;
 }
 .vista{
-				padding: 0px;
+				padding: 0px 3% 0 0;
+				margin: auto;
 				text-align: center;
 				font-size: 120%;
+				
 }
 .descripcion ul{
 				display: flex;
