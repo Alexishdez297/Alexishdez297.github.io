@@ -412,12 +412,14 @@ span{
 }
 
 .a,.m,.h{
-				animation: bajar 3s;
+				animation: mover 20s infinite;
 				display:inline-block
 				position:absolute;
 }
 
-@keyframes bajar{
-				0%{margin-left: -130%;}
-				100%{margin-left: 0%;}
+@keyframes mover{
+				0%{margin-left: -160%;}
+				10%{margin-left: 0%;}
+				90%{margin-left: 0%;}
+				100%{margin-left: -160%;}
 }
