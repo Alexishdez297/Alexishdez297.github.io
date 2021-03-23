@@ -197,7 +197,7 @@ main p{
 				overflow:hidden;
 				padding: 10px;
 				margin: auto;
-				background: rgba(0,0,0,.3);
+				background: rgba(0,0,0,.5);
 				border-radius: 30px;
 }
 .descripcion ul li div { 
@@ -214,7 +214,7 @@ main p{
 				display: flex;
 				padding: 0;
 				width: 505%;
-				animation: cambio 15s infinite; 
+				animation: cambio 17s infinite; 
 }
 .descripcion ul li{
 				list-style:none;
@@ -240,17 +240,35 @@ main p{
 }
 @keyframes cambio {
 				
-				0%{margin-left: 0;}
-				20%{margin-left: 0;}
 				
-				25%{margin-left: -202%;}
+				0%{margin-left: 15%;}
+				10%{margin-left: 0%;}
+				18%{margin-left: 0;}
+				
+				22%{margin-left: 20%;}
+				
+				26%{margin-left: -222%;}
+				30%{margin-left: -196%;}
 				45%{margin-left: -202%;}
+				48%{margin-left: -202%;}
 				
-				50%{margin-left: -402%;}
-				70%{margin-left: -402%;}
+				50%{margin-left: -182%;}
 				
-				75%{margin-left: -202%;}
-				95%{margin-left: -202%;}  
+				52%{margin-left: -422%;}
+				56%{margin-left: -396%;}
+				71%{margin-left: -402%;}
+				74%{margin-left: -402%;}
+				
+				78%{margin-left: -422%;}
+				
+				80%{margin-left: -182%;}
+				84%{margin-left: -208%;}
+				91%{margin-left: -202%;}
+				94%{margin-left: -202%;}  
+				
+				96%{margin-left: -222%;}
+				
+				100%{margin-left: 15%;}
 				
 			/*  	82%{margin-left: -400%;}
 				97%{margin-left: -400%;}   */
@@ -364,6 +382,7 @@ span{
 			 align-items:center;
 			 padding: 10px;
 			 box-sizing:border-box;
+			 
 }
 .foto a{
 				color: #fff;
@@ -374,6 +393,7 @@ span{
 				height: 100%;
 				margin: 0 10px;
 				felx-shrink:2;
+				background: #ccc;
 }
 .foto img{
       max-width: 100%;
@@ -391,3 +411,13 @@ span{
 				
 }
 
+.a,.m,.h{
+				animation: bajar 3s;
+				display:inline-block
+				position:absolute;
+}
+
+@keyframes bajar{
+				0%{margin-left: -130%;}
+				100%{margin-left: 0%;}
+}
